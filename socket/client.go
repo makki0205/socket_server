@@ -6,7 +6,7 @@ import (
 )
 
 func ClientInit(ip string){
-	conn, err := net.Dial("tcp", ip + ":1234")
+	conn, err := net.Dial("tcp", ip + ":2000")
 	if err != nil {
 		fmt.Printf("Dial error: %s\n", err)
 		return
