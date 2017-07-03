@@ -3,7 +3,8 @@ jsonデータをTCPSocketで送るためのサーバー
 
 ## コンパイル方法
 ```sh
-go build main.go
+go get github.com/makki0205/socket_server
+go build github.com/makki0205/socket_server
 ```
 
 ## 使い方
